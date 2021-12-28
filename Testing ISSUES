@@ -1,0 +1,50 @@
+There are two issues: 
+1. download hierarchical models -> C-GEN still low in one group (cluster)
+2. C-GEN is high but C-GEN after local train is low
+
+FedAVG
+============= Test Client Models - Specialization ============= 
+At round 9 AvgC. testing accuracy: 0.9612676056338029
+At round 9 AvgC. training accuracy: 0.9792418772563177
+============= Test Client Models - Generalization ============= 
+At round 9 AvgC. testing accuracy: 0.19788732394366196
+============= Test Global Models  ============= 
+At round 9 global testing accuracy: 0.6514084507042254
+
+
+
+-------
+============= Test Client Models - Specialization ============= 
+At round 9 AvgC. testing accuracy: 0.9084507042253521
+At round 9 AvgC. training accuracy: 0.9377256317689531
+============= Test Client Models - Generalization ============= 
+At round 9 AvgC. testing accuracy: 0.17816901408450705
+============= Test Group Models - Specialization ============= 
+AvgG. Testing performance for each level: [0.64225941 0.56690141]
+============= Test Group Models - Generalization ============= 
+AvgG. Testing performance for each level: [0.47816901 0.56690141]
+
+
+
+----------------------------------------- Tensorflow version
+FedAVG
+============= Test Client Models - Specialization ============= 
+At round 9 AvgC. testing accuracy: 0.9612676056338029
+At round 9 AvgC. training accuracy: 0.9927797833935018
+============= Test Client Models - Generalization ============= 
+At round 9 AvgC. testing accuracy: 0.2028169014084507
+============= Test Global Models  ============= 
+At round 9 global testing accuracy: 0.7323943661971831
+
+
+
+
+============= Test Client Models - Specialization ============= 
+At round 9 AvgC. testing accuracy: 0.9612676056338029
+At round 9 AvgC. training accuracy: 0.9954873646209387
+============= Test Client Models - Generalization ============= 
+At round 9 AvgC. testing accuracy: 0.1948943661971831
+============= Test Group Models - Specialization ============= 
+AvgG. Testing performance for each level: [0.83217647 0.6971831 ]
+============= Test Group Models - Generalization ============= 
+AvgG. Testing performance for each level: [0.51549296 0.6971831 ]
